@@ -283,7 +283,7 @@ border-radius: 3px;*/
     letter-spacing: 0.03em;
     color: #212121;
 }
-
+/* SECTION WHAT WE DO END */
 
 
 /*OURSTEAMFLEX-START*/
@@ -384,7 +384,7 @@ border-radius: 3px;*/
     display: block;
     justify-content: space-between;
     width: 231px;
-    min-height: 81px;
+    height: 101px;
     margin-left: 215px;
     padding-top: 20px;
 
@@ -396,6 +396,7 @@ border-radius: 3px;*/
     letter-spacing: 0.03em;
     color: #FFFFFF;
     text-decoration: none;
+
 }
 
 .footer-mail-link, .footer-tel-link {
@@ -405,7 +406,7 @@ border-radius: 3px;*/
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-
+    
 }
 
 /* FOOTERFLEX-END */
@@ -480,9 +481,14 @@ border-radius: 3px;*/
     text-transform: capitalize;
     padding-left: 24px;
     padding-top: 20px;
+    padding-bottom: 4px;
     /* margin-top: 20px; */
     /* border: solid 1px red; */
     
+}
+
+.lowercase {
+    text-transform: lowercase;
 }
 
 .portfolio-all-bottom {
@@ -519,7 +525,7 @@ border-radius: 3px;*/
 
 .solid {
     width: 370px;
-    height: 100px;
+    height: 110px;
     align-items: inherit;
     border-left: solid 1px #EEEEEE;
     border-right: solid 1px #EEEEEE;
